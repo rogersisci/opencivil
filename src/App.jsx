@@ -1,11 +1,8 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import WorkoutSession from './components/WorkoutSession';
-import FeaturedBootcamps from './components/FeaturedBootcamps';
 import WorkoutGallery from './components/WorkoutGallery';
-import FitnessPlans from './components/FitnessPlans';
 import ContactForm from './components/ContactForm';
-import BMICalculator from './components/BMICalculator';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -15,11 +12,8 @@ function App() {
       <Header />
       <Hero />
       <WorkoutSession />
-      <FeaturedBootcamps />
-      <WorkoutGallery />
-      <FitnessPlans />
-      <ContactForm />
-      <BMICalculator />
+      <WorkoutGallery />      
+      <ContactForm />    
       <Footer />
     </div>
   );

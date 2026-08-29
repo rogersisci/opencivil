@@ -4,11 +4,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2">
-            <div className="text-primary-500 font-bold text-2xl mb-4">MATRIX FITNESS</div>
+            <div className="text-primary-500 font-bold text-2xl mb-4">OPENCIVIL</div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Transform your body, transform your life. Join thousands of members 
-              who have achieved their fitness goals with our world-class facilities 
-              and expert guidance.
+              Empieza con nuestro equipo de expertos, que está aquí para ayudarte a alcanzar tus objetivos.
             </p>
             <div className="flex space-x-4">
               {/* YouTube */}
@@ -44,27 +42,27 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
-              <li><a href="#featuredbootcamps" className="text-gray-400 hover:text-white transition-colors">Programs</a></li>
-              <li><a href="#plans" className="text-gray-400 hover:text-white transition-colors">Plans</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+              <li><a href="#home" className="text-gray-400 hover:text-white transition-colors">Inicio</a></li>
+              <li><a href="#workoutsession" className="text-gray-400 hover:text-white transition-colors">Nosotros</a></li>
+              <li><a href="#workoutgallery" className="text-gray-400 hover:text-white transition-colors">Proyectos</a></li>
+              <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contacto</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-white font-semibold mb-4">Contact Info</h3>
             <div className="space-y-2 text-gray-400">
-              <p>123 Fitness Street</p>
-              <p>New York, NY 10001</p>
-              <p>+1 (555) 123-4567</p>
-              <p>info@matrixfitness.com</p>
+              <p>av. kennedy</p>
+              <p>Peru</p>
+              <p>(+51) 123-4567</p>
+              <p>info@opencivil.com</p>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © 2025 Matrix Fitness. All rights reserved. | 
+            © 2025 opencivil. All rights reserved. | 
             <a href="#" className="hover:text-white transition-colors"> Privacy Policy</a> | 
             <a href="#" className="hover:text-white transition-colors"> Terms of Service</a>
           </p>

@@ -1,21 +1,17 @@
 export default function WorkoutGallery() {
   const workoutImages = [
-    "https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-    "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-    "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-    "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-    "https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-    "https://images.pexels.com/photos/1552108/pexels-photo-1552108.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "/opencivil/ETABSMCPLLM.jpg",
+    "/opencivil/ETABSMCPLLM.jpg",
+    "/opencivil/ETABSMCPLLM.jpg"
   ];
 
   return (
     <section id="workoutgallery" className="py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-4">BETTER BEATS BEST</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">PROYECTOS</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Experience the ultimate workout environment with state-of-the-art equipment 
-            and diverse training programs designed to push your limits.
+            tecnologia para ingenieria civil basado en inteligencia artificial, algoritmos computaciones, etc.
           </p>
         </div>
         

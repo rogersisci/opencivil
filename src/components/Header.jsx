@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import { BsBuildings } from "react-icons/bs";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -12,16 +12,17 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <a href="#home" className="text-primary-500 font-bold text-xl">
-              MATRIX FITNESS
+            <BsBuildings size={30} />
+            <a href="#home" className="text-primary-1000 font-bold text-xl">
+              OPENCIVIL
             </a>
           </div>
 
           <nav className="hidden md:flex space-x-8">
-            <a href="#home" className="text-white hover:text-primary-500 transition-colors">Home</a>
-            <a href="#featuredbootcamps" className="text-white hover:text-primary-500 transition-colors">Programs</a>
-            <a href="#plans" className="text-white hover:text-primary-500 transition-colors">Plans</a>
-            <a href="#contact" className="text-white hover:text-primary-500 transition-colors">Contact</a>
+            <a href="#home" className="text-white hover:text-primary-500 transition-colors">Inicio</a>
+            <a href="#workoutsession" className="text-white hover:text-primary-500 transition-colors">Nosotros</a>
+            <a href="#workoutgallery" className="text-white hover:text-primary-500 transition-colors">Proyectos</a>
+            <a href="#contact" className="text-white hover:text-primary-500 transition-colors">Contacto</a>
           </nav>
 
           <button

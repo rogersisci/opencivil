@@ -41,10 +41,9 @@ export default function ContactForm() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-white mb-6">CONTACT US</h2>
+            <h2 className="text-4xl font-bold text-white mb-6">CONTACTANOS</h2>
             <p className="text-gray-400 mb-8 leading-relaxed">
-              Ready to start your fitness journey? Get in touch with our team of experts 
-              who are here to help you achieve your goals. We're just a message away!
+              ¿Estás listo para empezar tu camino? Ponte en contacto con nuestro equipo de expertos, que está aquí para ayudarte a alcanzar tus objetivos. ¡Solo tienes que enviarnos un mensaje!
             </p>
 
             <div className="space-y-4">
@@ -57,7 +56,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold">Phone</h3>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">(+51)123-4567</p>
                 </div>
               </div>
 
@@ -70,7 +69,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold">Email</h3>
-                  <p className="text-gray-400">info@matrixfitness.com</p>
+                  <p className="text-gray-400">info@opencivil.com</p>
                 </div>
               </div>
             </div>
